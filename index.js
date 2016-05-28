@@ -2,10 +2,12 @@ var bugsnag = require('bugsnag'),
     util = require('util'),
     winston = require('winston')
 
-function Bugsnag () {
+function Bugsnag (options) {
+  winston.Transport.call(this, options);
+  options = options || {};
 
+  this.level = level || 'error'
   this.name = 'bugsnag'
-
 }
 
 util.inherits(Bugsnag, winston.Transport)

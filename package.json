@@ -1,6 +1,6 @@
 {
-  "name": "winston-bugsnag",
-  "version": "2.0.0",
+  "name": "@tsjing/winston-bugsnag",
+  "version": "2.0.1",
   "description": "A Bugsnag transport for Winston",
   "main": "index.js",
   "scripts": {
