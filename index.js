@@ -6,7 +6,7 @@ function Bugsnag (options) {
   winston.Transport.call(this, options);
   options = options || {};
 
-  this.level = level || 'error'
+  this.level = options.level || 'error'
   this.name = 'bugsnag'
 }
 
