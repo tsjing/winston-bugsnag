@@ -1,4 +1,4 @@
-var bugsnag = require('bugsnag'),
+var bugsnag = require('@tsjing/bugsnag'),
     util = require('util'),
     winston = require('winston')
 
